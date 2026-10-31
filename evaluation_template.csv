@@ -1,0 +1,2 @@
+experiment_id,question_id,question_category,question,condition,model_id,prompt_version,retrieval_method,top_k,answer,source_references,factual_correctness_score,evidence_support_score,citation_accuracy_score,completeness_score,critical_analysis_score,hallucination_severity_score,latency_seconds,input_tokens,output_tokens,estimated_cost,evaluation_notes,evaluator_id,run_status,timestamp
+,,,,,,,,,,,,,,,,,,,,,,,,

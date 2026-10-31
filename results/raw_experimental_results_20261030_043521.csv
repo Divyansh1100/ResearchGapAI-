@@ -1,0 +1,59 @@
+experiment_id,question_id,condition,question,model_id,prompt_version,retrieval_method,top_k,answer,source_references,run_status,timestamp,input_tokens,output_tokens,estimated_cost,latency_seconds,status_message
+adf07640-a,adf07640,A,"According to the research paper, AI applications in healthcare can be classified into five broad computational categories.
+
+Identify all five categories.
+Explain each category in your own words.
+Give one practical healthcare example for each category.
+Explain why an AI-based healthcare prediction system should undergo rigorous evaluation before being deployed in real-world clinical settings.",gemini-3.8-flash,baseline-v1,none,5,"Because a specific research paper is not named, the exact classification can vary across the literature. However,",,success,2026-10-30T04:30:48Z,159,20,,22.01,
+adf07640-b,adf07640,B,"According to the research paper, AI applications in healthcare can be classified into five broad computational categories.
+
+Identify all five categories.
+Explain each category in your own words.
+Give one practical healthcare example for each category.
+Explain why an AI-based healthcare prediction system should undergo rigorous evaluation before being deployed in real-world clinical settings.",gemini-3.8-flash,retrieval-evidence-v1,tfidf,5,"Based on the provided paper, from a computational perspective, the medical and healthcare tasks supported by artificial intelligence (AI) can",[S1] Test_Research_paer.pdf p.1; [S1] Test_Research_paer.pdf p.1; [S1] Test_Research_paer.pdf p.5; [S1] Test_Research_paer.pdf p.6; [S1] Test_Research_paer.pdf p.7,success,2026-10-30T04:33:31Z,4525,24,,57.51,
+adf07640-c,adf07640,C,"According to the research paper, AI applications in healthcare can be classified into five broad computational categories.
+
+Identify all five categories.
+Explain each category in your own words.
+Give one practical healthcare example for each category.
+Explain why an AI-based healthcare prediction system should undergo rigorous evaluation before being deployed in real-world clinical settings.",gemini-3.8-flash,specialized-literature-v1,tfidf,5,"Based strictly on the provided evidence from [S1], here is the structured analysis addressing the research questions.
+
+---
+
+### Findings
+
+#### 1. The Five Broad Computational Categories of AI Tasks
+According to [S1], the computational tasks that an AI system in healthcare is designed to support are categorized into five types [S1, p. 6]:
+1. **Prediction**
+2. **Classification**
+3. **Association**
+4. **Regression**
+5. **Optimisation**
+
+*(Note: While page 1 mentions that from a computational perspective medical and healthcare uses of AI can be classified into five broad categories, the text cuts off on page 1; the five specific computational task categories are explicitly itemized on page 6 under Question 3 [S1, p. 1, 6]).*
+
+---
+
+#### 2. Explanation and Healthcare Examples for Each Category
+Based on the descriptions and examples directly reported in [S1, p. 6]:
+
+*   **Prediction**
+    *   **Explanation:** Estimating or forecasting the likelihood of a person developing a particular health condition or clinical outcome in the future.
+    *   **Provided Example:** Estimating the risk of a person developing a specific health outcome [S1, p. 6].
+*   **Classification**
+    *   **Explanation:** Categorizing or assigning patient data into distinct groups to indicate whether a disease or risk condition is present or absent.
+    *   **Provided Example:** Estimating the presence or absence of a disease or risk state (e.g., distinguishing between a cough caused by pulmonary tuberculosis and a non-tuberculosis condition [S1, p. 1, 6]).
+*   **Association**
+    *   **Explanation:** Identifying relationships, patterns, or linkages between different biological, clinical, or health-related factors.
+    *   **Provided Example:** Identifying new risk factors for a specific health condition or discovering relationships for drug discovery [S1, p. 6].
+*   **Regression**
+    *   **Explanation:** Evaluating or calculating a patient's numerical likelihood or probability of having a particular condition based on a specific set of underlying risk factors.
+    *   **Provided Example:** Estimating the likelihood of a patient having a condition, given particular risk factors [S1, p. 6].
+*   **Optimisation**
+    *   **Explanation:** Improving operational, procedural, or workflow efficiencies within healthcare delivery.
+    *   **Provided Example:** Improving the efficiency of administrative tasks (e.g., speech recognition products allowing users to dictate letters in real time) [S1, p. 1, 6].
+
+---
+
+#### 3. Why an AI-Based Healthcare Prediction System Must Undergo Rigorous Evaluation Before Clinical Deployment
+The provided evidence explicitly highlights several clinical, technical, and ethical",[S1] Test_Research_paer.pdf p.1; [S1] Test_Research_paer.pdf p.1; [S1] Test_Research_paer.pdf p.5; [S1] Test_Research_paer.pdf p.6; [S1] Test_Research_paer.pdf p.7,success,2026-10-30T04:34:44Z,4592,596,,23.65,
